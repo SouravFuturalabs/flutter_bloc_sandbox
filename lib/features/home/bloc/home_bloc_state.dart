@@ -12,6 +12,9 @@ class HommeLoadingState extends HomeBlocState{
 
 }
 class HomeLoadingSucessState extends HomeBlocState{
+  final List<Products> productList;
+
+  HomeLoadingSucessState({required this.productList});
   
 }
 
